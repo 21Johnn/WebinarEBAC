@@ -1,0 +1,104 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #292929;
+}
+
+.container{
+    margin: 80px auto;
+    width: 320px;
+}
+
+header{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px ;
+    width: 302px;
+    height: 56px;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+header h1{
+    font-size: 24px;
+    letter-spacing: 3%;
+    color: #ffffff;
+}
+
+.form{
+    margin-top: 80px;
+    width: 302px;
+    margin-left: 10px;
+    margin-bottom: 23px;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;    
+}
+
+form label{
+    font-size: 16px;
+    letter-spacing: 3%;
+    color: #a3a3a3;
+    margin-bottom: 2px;
+}
+
+form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #42C3AE;
+    height: 26px;
+    margin-bottom: 26px;
+    outline: none;
+    color: #ffffff;
+}
+
+form button{
+    width: 100%;
+    background-color: #35BAA4;
+    padding: 12px 75px;
+    color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 302px;
+    margin-left: 10px;
+    background-color: #35BAA4;
+    color: #ffffff;
+    padding: 14px 23px;
+}
+
+.resultado span{
+    font-size: 16px;
+    letter-spacing: 6%;
+}
+
+.resultado #valor-total{
+    font-size: 32px;
+}
+
+.resultado p{
+    font-size: 12px;
+}
+
+.hidden{
+    display: none;
+}
+
+
